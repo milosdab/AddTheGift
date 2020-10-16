@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="jquery/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .divNagrade {
+            padding: 7px;
+        }
+
+        .nijeDiv {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col-sm-6" id="listaDiv">
+        <table class="table table-bordered" id="listaZaposlenih">
+            <thead>
+                <tr>
+                    <th>
+                        Ime
+                    </th>
+                    <th>
+                        Prezime
+                    </th>
+                    <th>
+                        Nagrada
+                    </th>
+                    <th>
+                        Dodeli Nagradu
+                    </th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <div id="proizvodiDiv">
+        
+        <select id="kategorije"></select>
+        <button class="btn btn-success" id="nadji">Nadji</button>
+
+
+        <div id="listaProizvoda">
+
+        </div>
+
+    </div>
+
+
+    <script src="../AddGiftApp/app.js" ></script>
+</body>
+
+</html>
